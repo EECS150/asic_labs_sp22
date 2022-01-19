@@ -38,7 +38,7 @@ The servers used for this class are primarily `eda-[1-11].eecs.berkeley.edu`.  Y
 
 It is important that you can remotely access the instructional servers. There are two convenient ways to remotely access our
 lab machines: SSH (Secure SHell) and X2Go.
-First, select a machine. The range of accessible machines are `eda-X`, where X is a number from 1 to 8,
+First, select a machine. The range of accessible machines are `eda-X`, where X is a number from 1 to 11,
 and `c111-X`, where X is a number from 1 to 17. The fully qualified DNS name (FQDN) of
 your machine is then `eda-X.eecs.berkeley.edu` or `c111-X.eecs.berkeley.edu`. For example,
 if you select machine `eda-8`, the FQDN would be `eda-8.eecs.berkeley.edu`.
@@ -212,7 +212,9 @@ For each task below, describe the keys you need to press to accomplish the actio
 6. Reload the file (in case it was modified in another window)
 7. Save and exit
 
+#### Alternative Editors
 
+While Vim is a powerful editor and ubiquitous on Linux environments, there are other alternatives that might be more suitable for different use cases. A modern graphical text editor is Visual Studio Code, which supports editing text files through an SSH session. As Visual Studio Code renders text on the client machine, it can be useful for students with high latency or irregular internet connections as in such environments X2Go or Vim in SSH can feel unresponsive. To set up Visual Studio Code for remote development, please follow the tutorial here: https://code.visualstudio.com/docs/remote/ssh-tutorial
 
 ## Regular Expressions
 
