@@ -427,7 +427,7 @@ read these but are not required to turn in anything for this section.
 
 ## Lab Deliverables
 
-### Lab Due: 11 AM, Friday September 10th, 2021
+### Lab Due: 11 AM, Friday January 28th, 2022
 
 - Submit a written report with all 6 questions answered to Gradescope
 
