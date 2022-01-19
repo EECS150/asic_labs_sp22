@@ -31,7 +31,7 @@ Once you login using your CalNet ID, you can click on 'Get a new account' in the
 
 ## Logging into the Classroom Servers
 
-The servers used for this class are primarily `eda-[1-8].eecs.berkeley.edu`.  You may also use the `c111-[1-17].eecs.berkeley.edu` machines
+The servers used for this class are primarily `eda-[1-11].eecs.berkeley.edu`.  You may also use the `c111-[1-17].eecs.berkeley.edu` machines
 (which are physically located in Cory 111/117), although those will be shared with the FPGA lab. You can access all of these machines remotely through SSH.
 
 ### Remote Access
