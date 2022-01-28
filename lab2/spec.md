@@ -691,10 +691,9 @@ parameters (e.g. temperature, timing) must also be simulated to maximize product
 
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, Friday January 28th, 2022
+### Lab Due: 11:59 PM, Friday February 4th, 2022
 
 - Submit a written report with all 6 questions answered to Gradescope
-- Checkoff with an ASIC lab TA
 
 ## Acknowledgement
 
