@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Lab 2: Simulation
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -620,12 +620,8 @@ capacitances and resistances caused by physical layout and connections of logic 
 is dumped from a post-P&R gate-level simulation, and contains a somewhat cryptic annotation of
 how often nets in the design switch and requires the `sim.inputs.saif keys` in Hammer. A time
 window over which switching activity is measured is helpful for generating representative traces,
-such as for workloads that only run after a processor core has booted up.
-Now, run the power analysis (later labs will use a different make rule):
-
-```shell
-make power
-```
+such as for workloads that only run after a processor core has booted up. For this lab, the power
+outputs have been generated in advance.
 
 Under the hood, Hammer uses Cadence Voltus to analyze power consumption. It maps the
 annotated switching activity onto the layout database, taking into account the circuit parasitics.
@@ -695,7 +691,7 @@ parameters (e.g. temperature, timing) must also be simulated to maximize product
 
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, Friday September 17th, 2021
+### Lab Due: 11:59 PM, Friday January 28th, 2022
 
 - Submit a written report with all 6 questions answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -715,3 +711,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
