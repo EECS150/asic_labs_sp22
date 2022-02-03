@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Lab 3: Logic Synthesis
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -391,6 +391,11 @@ This will run a post-synthesis simulation using annotated delays from the `gcd.m
 
 ---
 
+### Checkoff 1: Synthesis Understanding 
+Demonstrate that your synthesis flow works correctly, and be prepared to explain the synthesis steps at a high level.
+
+---
+
 ### Question 5: Delay Questions
 Check the waveforms in DVE. 
 
@@ -428,7 +433,7 @@ divider instead of the GCD module when testing.
 
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, Friday September 24th, 2021
+### Lab Due: 11:59 PM, Friday February 11th, 2021
 
 - Submit a written report with all 6 questions answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -448,3 +453,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
