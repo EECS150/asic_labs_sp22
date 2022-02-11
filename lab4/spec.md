@@ -1,10 +1,9 @@
 # EECS 151/251A ASIC Lab 4: Floorplanning, Placement, Power, and CTS
-
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -219,6 +218,10 @@ From the `build/par-rundir` folder, execute the following in a terminal with gra
 ```
 The Innovus GUI will pop up with your layout and your terminal is now the Innovus shell. After the window opens, click anywhere inside the black window at the center of the GUI and press “F” to zoom-to-fit. You should see your entire design, which should look roughly similar to the one below once you disable the V8, M8, V9, and M9 layers (because recall that the power straps in these metal layers were set to 100% coverage) using the right panel by unchecking their respective boxes under the “V” column:
 
+### Checkoff 2: Innovus 
+
+Demonstrate that you are able to view your design when using Innovus.
+
 <p align="center">
 <img src="./figs/innovus_window.png" width="500" />
 </p>
@@ -327,9 +330,13 @@ Given these definitions, complete `ALU.v` and write a testbench tb `ALU.v` that 
 
 ---
 
+### Checkoff 2: ALU
+
+Demonstrate the functionality of your ALU and testbench.
+
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, Friday October 1st, 2021
+### Lab Due: 11:59 PM, Friday February 25th, 2022
 
 - Submit a written report with all 4 questions answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -349,3 +356,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
