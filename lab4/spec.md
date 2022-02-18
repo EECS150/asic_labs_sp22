@@ -266,7 +266,7 @@ Now right-click on Path 1 in this window (the critical path), select Show Timing
 ### Question 2: Interpreting P&R Timing Reports
 a) What is the critical path of your design pre- and post-CTS? Is it the same as the post-synthesis critical path?
 
-b) Look in the post-CTS text timing report (`hammer_cts_debug/hammer_cts.all.tarpt`). Find a path inside which the same cell is used more than once. Identify the delay of those instances of that common cell. Can you explain why they are different?
+b) Look in the post-CTS text timing report (`hammer_cts_debug/hammer_cts.all.tarpt`). Find a path inside which the same type of cell is used more than once. Identify the delay of those instances of that common cell. Can you explain why they are different?
 
 c) What is the skew between the clock that arrives at the flip-flops at the beginning and end of the post-CTS critical path? Does this skew help or hurt the timing margin calculation?
 
