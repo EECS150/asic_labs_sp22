@@ -330,6 +330,8 @@ In this question, you will be designing and testing an ALU for later use in the 
 
 Given these definitions, complete `ALU.v` and write a testbench tb `ALU.v` that checks all these operations with random inputs at least a 100 times per operation and outputs a PASS/FAIL indicator. For this lab, we will only check for effort and not correctness, but you will need it to work later!
 
+For this question, submit the code for both your ALU module as well as for the testbench.
+
 ---
 
 ### Checkoff 2: ALU
