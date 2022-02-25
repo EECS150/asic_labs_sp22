@@ -1,4 +1,4 @@
-# EECS 151/251A ASIC Lab 3: Logic Synthesis
+# EECS 151/251A ASIC Lab 5: Parallelization and Routing
 <p align="center">
 Prof. Sophia Shao
 </p>
@@ -208,4 +208,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
-- Dima Nikiforov (2021)
+- Dima Nikiforov (2022)
