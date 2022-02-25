@@ -55,6 +55,9 @@ block contains the earliest data to preserve ordering.
 
 **b.) How many cycles did your simulation take? What was the % speedup?**
 
+## Checkoff 1: Design
+Demonstrate your simulation's functionality and explain your design/approach.
+
 ---
 
 ## Automated Flow
@@ -132,6 +135,9 @@ This will open the Innovus shell. Next, type `read_db gcd_coprocessor_FINAL` to 
 database from the latest PAR flow. This will help us to avoid re-running the entire flow. To see
 all the reporting commands, type `help report*` in the Innovus shell and read through the options
 available to you.
+
+## Checkoff 2: Innovus Commands
+Explain the PAR flow, or ask some questions about any steps you don't understand.
 
 ---
 ## Question 3: Innovus Reports
