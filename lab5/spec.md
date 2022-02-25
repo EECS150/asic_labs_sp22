@@ -1,10 +1,9 @@
-# EECS 151/251A ASIC Lab 5: Parallelization and Routing
-
+# EECS 151/251A ASIC Lab 3: Logic Synthesis
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -187,7 +186,7 @@ by writing out every possible case explicitly. You can limit the number of units
 
 ## Lab Deliverables
 
-### Lab Due 11:59 PM, Friday Oct 15th, 2021
+### Lab Due 11:59 PM, Friday Mar 11th, 2022
 
 - Submit a written report with all 4 questions answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -209,3 +208,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2021)
