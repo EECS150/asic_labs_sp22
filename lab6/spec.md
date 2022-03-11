@@ -1,10 +1,9 @@
 # EECS 151/251A ASIC Lab 6: SRAM Integration, DRC, LVS
-
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -328,6 +327,9 @@ Remember that Latency (ns) = Number of Post-PAR simulation cycles × Lowest Post
 **d) Screenshot the final floorplan of your single-SRAM dot product design to the report, as well as the power report, timing report, and area report.** 
 The SRAMs will have 0 power due to incomplete LIBs–show where this shows up in the power reports.
 
+### Checkoff 1: Modified Design
+Explain the updated vector unit design, and show the updated layout.
+
 ---
 ### [Optional, Extra Credit] Question 3: Divide Your Vector Dot Products
 **Note: this question is extra credit. You will be awarded up to 20% extra credit on this lab report.**
@@ -419,11 +421,15 @@ b) Skim through Chapter 1.2 of the DRM (`build/tech-asap7-cache/extracted/ASAP7_
 
 *d) (Ungraded thought experiment #4) At first, it may seem odd that the netlist that the PAR tool thinks the layout corresponds to could be different from the netlist extracted from the actual layout. What reasons can you think of that could cause mismatches? Which of these causes might make the LVS tool to slow down dramatically as it tries to extract/compare? Would you be able to catch any of these discrepancies if doing a post-PAR gate-level simulation in lieu of LVS, and why?*
 
+### Checkoff 2: DRC and LVS Demo
+Show the DRC and LVS results, and explain the meaning of what you see.
+
+
 ---
 
 ## Lab Deliverables
 
-### Lab Due: 11:59 PM, Friday October 22nd, 2021
+### Lab Due: 11:59 PM, Friday April 1st, 2022
 
 - Submit a written report with all 3 questions (4 if doing extra credit) answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -445,3 +451,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
