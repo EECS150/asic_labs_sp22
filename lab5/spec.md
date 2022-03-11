@@ -183,6 +183,8 @@ code should generate a low area, low power design if the number is greater than 
 gcd coprocessor can achieve, and it should generate the dual-unit design if it is lower. 
 **Submit your code.**
 
+Hint: Use the `verilog` `generate` syntax for choosing between designs. See [here](https://www.chipverify.com/verilog/verilog-generate-block) for documentation on how to use the `generate` syntax.
+
 c.) (Optional) Using a rough estimate of target number of cycles versus number of units in the design,
 write a code that will generate 1-8 cores depending on the performance demand. Do NOT do this
 by writing out every possible case explicitly. You can limit the number of units to powers of two
