@@ -443,7 +443,8 @@ Verilog code. Hint: Use 1 flip-flop and 1 logic gate only. A is an input, X and 
 answer. 
 **Submit your Verilog testbench and a screenshot of the simulation waveforms showing all
 of the input and output pins.**
-Hint: you may need to modify the Verilog code from Question 1a.  
+Hint: Make sure to keep your testbench separate from your DUT code. Instantiate your DUT within your testbench rather than duplicating functionality.  
+
 
 ---
 
