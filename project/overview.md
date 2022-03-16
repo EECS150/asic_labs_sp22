@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification RISC-V Processor Design: Overview
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -11,7 +11,6 @@ Department of Electrical Engineering and Computer Science
 <p align="center">
 College of Engineering, University of California, Berkeley
 </p>
-
 ## 1. Introduction
 
 The primary goal of this project is to familiarize students with the methods and tools of digital design. In order to make the project both interesting and useful, we will guide you through the implementation of a CPU that is intended to be integrated on a modern SoC. Working alone or in teams of 2, you will be designing a simple 3-stage CPU that implements the RISC-V ISA, developed here at UC Berkeley. If you work in a team, you must both have a complete understanding of your entire project code, and you will both receive the same grade.
@@ -82,6 +81,7 @@ Phase 1 will last for 5 weeks and has weekly checkpoints.
 - Checkpoint 1: ALU design and pipeline diagram
 - Checkpoint 2: Core implementation
 - Checkpoint 3: Core + memory system implementation 
+- Checkpoint 4: Physical Design
 
 
 ### 2.1 Adding SSH Key
@@ -169,3 +169,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
