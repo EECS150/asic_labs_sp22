@@ -108,7 +108,7 @@ The skeleton files for the project will be delivered as a git repository provide
 git clone /home/ff/eecs151/labs/project_skeleton /path/to/my/project
 ```
 
-To get a team repo, fill out the google sheet via the link on Piazza with your team information. Please do this even if you are working alone, as these git repos will be used for version control and as part of the final checkoff. You will receive an email with an invite link to your project repo, which you should click to join before following the directions below. 
+To get a team repo, fill out the google form via the link on Piazza with your team information. Please do this even if you are working alone, as these git repos will be used for version control and as part of the final checkoff. You will receive an email with an invite link to your project repo, which you should click to join before following the directions below. 
 
 An example working flow to be able to pull from the skeleton as well as push/pull with your team repository is shown below:
 
