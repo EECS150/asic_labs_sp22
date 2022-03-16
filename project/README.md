@@ -11,7 +11,7 @@
 - [Checkpoint 4](checkpoint4.md) : Synthesis, PAR & Power
     - Apr 29 (Friday), 2022
 - [Final Deliverables](final.md): 
-    - Final Checkoff Opportunity: May 6, 2022
+    - Final Interview/Checkoff: May 6, 2022
     - Report: May 9, 2022
 # Resources:
 [RISC-V Instruction Set Manual](https://riscv.org/technical/specifications/) (Volume 1, Unprivileged Spec)
