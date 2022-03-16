@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 3
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -121,6 +121,8 @@ simOptions variable in the `sim-rtl.yml` file. To use your cache, comment out `+
 Take note of the cycle counts for both, you should see the cycle counts increase when you use the cache.
 
 ### 4 Checkpoint 3 Deliverables
+*Checkoff due: Apr 29 (Friday), 2022*
+
 1. Show that all of the assembly tests and final pass using the cache
 
 2. Show the block diagram of your cache
@@ -148,3 +150,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
