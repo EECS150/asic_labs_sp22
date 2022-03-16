@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 2
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -91,7 +91,7 @@ vim addi.hex
 
 
 ### 6. Checkpoint 2 Deliverables
-*Checkoff due: Nov 10 (Wednesday), Nov 12 (Friday), Nov 15 (Monday), 2021*
+*Checkoff due: Apr 15 (Friday), 2022*
 
 Congratulations! You’ve started the design of your datapath by implementing your pipeline diagram, and written and thoroughly tested a key component in your processor and should now be well-versed in testing Verilog modules. Please answer the following questions to be checked off by a TA.
 
@@ -119,3 +119,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
