@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 4
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -74,11 +74,21 @@ This is most apparent in gate-level simulations because the SRAMs do not provide
 timing annotation. You may find that despite meeting timing in synthesis and PAR, you will
 likely need to increase the gate-level simulation clock period for the benchmarks to pass.
 
+### 2 Checkpoint 4 Deliverables
+*Checkoff due: May 6 (Friday), 2022*
+
+
+1. Show that all of the assembly tests and final pass using the cache in a post-par simulation
+
+2. Show your layout, and explain your design considerations when creating the floorplan
+
+3. Show your final pipeline diagram, updated to match the code
+
 ---
 
-## 2 Beyond Checkpoint 4: CPU Optimization
+## 3 Beyond Checkpoint 4: CPU Optimization
 
-### 2.1 Optimizing for frequency
+### 3.1 Optimizing for frequency
 Beyond functionality, your final project grade will be determined by the maximum operating frequency
 of your processor, determined by the critical path. You will also want to optimize for the number of
 cycles that your processor takes to execute certain programs, more on that later. The critical path will
@@ -101,7 +111,7 @@ Note for bonus grading: due to the SRAM timing issue described above, the maximu
 you achieved in PAR (not gate-level simulation) is most accurate and should be what you report for
 frequency.
 
-### 2.2 Optimizing for number of cycles
+### 3.2 Optimizing for number of cycles
 We are providing you tests that are the output of example C programs to run for your processor. They
 are meant to be a representative example of different types of programs that each have different reasons
 why they may take extra cycles to execute, for a variety of reasons including, but not limited to cache
@@ -125,7 +135,7 @@ make sim-rtl test_bmark=all
 You may need to increase the number of cycles for timeout for some of the longer tests (like sum,
 replace and cachetest) to pass.
 
-### 2.3 Optimizing for power
+### 3.3 Optimizing for power
 **DISCLAIMER:** The infrastructure to do power analysis in this project is very different from gate-level
 simulation and power analysis so far. Doing this optimization is *purely optional* and should only be
 tried after you can pass the benchmarks normally! **Proceed at your own risk!**
@@ -189,3 +199,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
