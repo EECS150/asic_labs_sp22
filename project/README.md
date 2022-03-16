@@ -3,15 +3,15 @@
 
 - [Project Overview](overview.md) : Introduction, Project setup and Grading
 - [Checkpoint 1](checkpoint1.md) :  ALU design and Pipeline diagram 
-    - Oct 27 (Wednesday), Oct 29 (Friday), Nov 1 (Monday), 2021
+    - Apr 1 (Friday), 2022
 - [Checkpoint 2](checkpoint2.md) : Fully functioning core
-    - Nov 10 (Wednesday), Nov 12 (Friday), Nov 15 (Monday), 2021
+    - Apr 15 (Friday), 2022
 - [Checkpoint 3](checkpoint3.md) : Cache
-    - Nov 17 (Wednesday), Nov 19 (Friday), Nov 22 (Monday), 2021
+    - Apr 22 (Friday), 2022
 - [Checkpoint 4](checkpoint4.md) : Synthesis, PAR & Power
-    - Included in final checkoff
+    - Apr 29 (Friday), 2022
 - [Final Deliverables](final.md): 
-    - Checkoff: Dec 7, 2021
-    - Report: Dec 9, 2021
+    - Final Checkoff Opportunity: May 6, 2022
+    - Report: May 9, 2022
 # Resources:
 [RISC-V Instruction Set Manual](https://riscv.org/technical/specifications/) (Volume 1, Unprivileged Spec)
