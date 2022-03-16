@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Final Deliverables
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -18,7 +18,7 @@ College of Engineering, University of California, Berkeley
 
 By now you should have designed a fully-functional processor from scratch! Your design should pass all assembly tests at your reported maximum frequency. Your
 design should also pass all of the benchmark tests in at your reported maximum frequency, and you
-should report the cycle count for each of those tests. By the due date (Thursday, December 9, 2021), each
+should report the cycle count for each of those tests. By the due date (Monday, May 9, 2022), each
 team needs to push their final commits to their team’s git repository. Only the final commit before the
 due date will be graded, so be very, very careful that you have submitted everything required. To be
 graded you must submit the following items:
@@ -27,7 +27,7 @@ graded you must submit the following items:
 * `build/par-rundir/timingReports/*`
 * `build/par-rundir/innovus.log*`
 
-These files will be used to check processor functionality and will show us your critical path, maximum operating frequency and area. During the interview session (Tuesday, December 7, 2021), the
+These files will be used to check processor functionality and will show us your critical path, maximum operating frequency and area. During the interview session (Friday, May  6, 2022), the
 professors and the GSI will be interviewing each team to gauge understanding of various concepts
 learned in the project, understand more about each team’s design process, and provide feedback. Your
 final report needs to answer the following questions:
@@ -80,3 +80,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
