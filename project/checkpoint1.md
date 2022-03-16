@@ -1,9 +1,9 @@
 # EECS 151/251A ASIC Project Specification: Checkpoint 1
 <p align="center">
-Prof. Bora Nikolic
+Prof. Sophia Shao
 </p>
 <p align="center">
-TAs: Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu
+TAs (ASIC): Dima Nikiforov
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -211,7 +211,7 @@ If not, you will need to debug your module until all test from the test vector f
 ---
 
 ###  8. Checkpoint #1: Simple test program
-*Checkoff due: Oct 27 (Wednesday), Oct 29 (Friday), Nov 1 (Monday), 2021*
+*Checkoff due: Apr 1 (Friday), 2022*
 
 
 Congratulations! You’ve started the design of your datapath by drawing a pipeline diagram, and written and thoroughly tested a key component in your processor. You should now be well-versed in testing Verilog modules. Please answer the following questions to be checked off by a TA:
@@ -236,3 +236,4 @@ Modified By:
 - Harrison Liew (2020)
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
+- Dima Nikiforov (2022)
