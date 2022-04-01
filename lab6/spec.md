@@ -170,7 +170,12 @@ information. There are also 3 types of Liberty files: [CCS, ECSM, and NLDM](http
 accuracy with tool runtime. 
 If you open up a file for the
 SRAMs we are using, you will see that they are very basic because these are fake timing models.
-Note that you will see that your post-synthesis and post-PAR timing reports will differ from gatelevel simulation due to these inaccuracies.
+Note that you will see that your post-synthesis and post-
+
+
+
+
+timing reports will differ from gatelevel simulation due to these inaccuracies.
 
 #### Library Exchange Format (*.lef)
 [LEF files](http://web.engr.uky.edu/~elias/lectures/LibertyFileIntroduction.pdf) must be generated for macros in order to denote
@@ -235,7 +240,7 @@ Next, we will perform PAR on the circuit.
 make par
 ```
 
-This command will invoke Synthesis as well, if it has not been run already. After PAR finishes,
+This command will invoke Synthesis as well, if it has not been run already (However, make sure to re-run synthesis if you updated your `design.yml` file). After PAR finishes,
 you can open the floorplan of the design by doing
 
 ```shell
