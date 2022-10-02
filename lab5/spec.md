@@ -3,7 +3,7 @@
 Prof. Sophia Shao
 </p>
 <p align="center">
-TAs (ASIC): Dima Nikiforov
+TAs (ASIC): Erik Anderson, Roger Hsiao, Hansung Kim, Richard Yan
 </p>
 <p align="center">
 Department of Electrical Engineering and Computer Science
@@ -18,7 +18,11 @@ Like last week, this lab has two parts. For the first part, we will continue to 
 coprocessor by improving its performance. After that, we will continue the physical design flow by
 performing routing.
 
-To begin this lab, get the project files and set up your environment by typing the following commands:
+To begin this lab, get the project files and set up your environment by typing the following command and sourcing the `eecs151.bashrc` file, as usual:
+
+```shell
+source /home/ff/eecs151/asic/eecs151.bashrc
+```
 
 ```shell
 git clone /home/ff/eecs151/labs/lab5.git
@@ -194,7 +198,7 @@ by writing out every possible case explicitly. You can limit the number of units
 
 ## Lab Deliverables
 
-### Lab Due 11:59 PM, Friday Mar 11th, 2022
+### Lab Due 11:59 PM, 2 weeks after your registered lab section. (Oct. 17 for lab section 1)
 
 - Submit a written report with all 4 questions answered to Gradescope
 - Checkoff with an ASIC lab TA
@@ -217,3 +221,4 @@ Modified By:
 - Sean Huang (2021)
 - Daniel Grubb, Nayiri Krzysztofowicz, Zhaokai Liu (2021)
 - Dima Nikiforov (2022)
+- Roger Hsiao (2022)
