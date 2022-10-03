@@ -101,7 +101,7 @@ make par
 The PAR command will take a long time to complete, as it runs through all stages of PAR. 
 Check out the iterations that Innovus runs through during optimization.  You can see some of the metrics that Innovus is using.
 Once it completes, take a look at the build directory as in the previous labs. You might see additional files
-compare to the `syn-rundir`, and that’s because the PAR flow incorporates the RC and parasitic delays, in addition to the cell delays. Open `build/par-rundir/gcd_coprocessor.setup.par.spef`
+compare to the `syn-rundir`, and that’s because the PAR flow incorporates the RC and parasitic delays, in addition to the cell delays. Open `build/par-rundir/gcd_coprocessor.PVT_0P63V_100C.par.spef`
 and search for the first occurrence of `D_NET`. What does it say about the first net? You may find
 [this wiki page](https://en.wikipedia.org/wiki/Standard_Parasitic_Exchange_Format#Parasitics) helpful. *(thought experiment #1 : get a sense of the units at the top and orders of magnitude of the RC parasitics in the SPEF file. If we used a 5nm technology library, do you expect the resistance to generally increase or decrease? How about the capacitance?)*
 
