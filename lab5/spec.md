@@ -170,7 +170,7 @@ After running `make sim-gl-par` you can run power analysis using:
 make power-par
 ```
 
-Navigate to `build/power-rundir/activePowerReports` and open `PVT_0P63V_100C.setup_view.rpt`. Do
+Navigate to `build/power-rundir/activePowerReports.PVT_0P63V_100C.setup_view/` and open `power.rpt`. Do
 the power estimation numbers match your expectation?
 
 ---
